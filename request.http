@@ -1,0 +1,10 @@
+@base_url=http://localhost:3000
+
+### Get Deposit Event Details
+GET {{base_url}}/masterChef/getDepositEventDetails
+
+### Get Withdraw Event Details
+GET {{base_url}}/masterChef/getWithdrawEventDetails
+
+### Get Emergency Withdraw Event Details
+GET {{base_url}}/masterChef/getEmergencyWithdrawEventDetails
